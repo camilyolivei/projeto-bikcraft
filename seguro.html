@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguros</title>
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="preload" href="assets/css/style.min.css" as="style">
+    <link rel="stylesheet" href="assets/css/img.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/favicon/icons8-bicicleta-50.png" type="image/x-icon">
+    <script>
+        document.documentElement.classList.add('js')
+    </script>
+</head>
+<body>
+    <header aria-label="Cabeçalho">
+        <div class="container header">
+            <a href="index.html">
+                <img src="assets/img/bikcraft.svg" alt="Logo bikcraft" class="logo" width="136" height="32">
+            </a>
+            <nav aria-label="Navegação" class="header__desktop">
+                <ul>
+                    <li><a href="bicycle.html">Bicicletas</a></li>
+                    <li><a href="seguro.html">Seguros</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+            <!--Mobile nav-->
+            <button class="button__menu" aria-label="Menu open header mobile">
+                <input type="checkbox" id="btn" name="btn" />
+                <label class="label" for="btn">
+                    <div class="open-close">
+                        <span class="one"></span>
+                        <span class="two"></span>
+                        <span class="three"></span>
+                    </div>
+                </label>
+            </button>
+            <div class="nav__mobile">
+                <div class="detail"></div>
+                <nav aria-label="Navegação" class="nav">
+                    <ul>
+                        <li><a href="bicycle.html">Bicicletas</a></li>
+                        <li><a href="seguro.html">Seguros</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        
+        <article class="safe-bg">
+            <section class="t__main">
+                <div class="t container">
+                    <p class="font-2-l-b cor-5">escolha o seguro</p>
+                    <h1 class="font-1-xxl cor-0">você seguro<span class="cor-p1 ">.<span></h1>
+                </div>
+            </section>
+            <div class="safe container">
+
+                <div class="safe-items">
+                    <div class="safe-item">
+                        <h3 class="font-1-xl cor-6">PRATA</h3>
+                        <span class="font-1-xl cor-0">R$ 199 <span class="font-1-xs cor-6">mensal</span></span>
+                        <ul class="font-2-m cor-0">
+                            <li>Duas trocas por ano</li>
+                            <li>Assistência técnica</li>
+                            <li>Suporte 08h às 18h</li>
+                            <li>Cobertura estadual</li>
+                        </ul>
+                        <a href="orcamento.html?tipo=seguro&product=silver" class="btn-g">Inscreva-se</a>
+                    </div>
+
+                    <div class="safe-item">
+                        <h3 class="font-1-xl cor-p1">OURO</h3>
+                        <span class="font-1-xl cor-0">R$ 299 <span class="font-1-xs cor-6">mensal</span></span>
+                        <ul class="font-2-m cor-0">
+                            <li>Cinco trocas por ano</li>
+                            <li>Assistência especial</li>
+                            <li>Suporte 24h</li>
+                            <li>Cobertura nacional</li>
+                            <li>Desconto em parceiros</li>
+                            <li>Acesso ao Clube Bikcraft</li>
+                        </ul>
+                        <a href="orcamento.html?tipo=seguro&product=gold" class="btn-style">Inscreva-se</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="benefits-bg">
+            <div class="container">
+                <h1 class="font-1-xxl cor-0">vantagens<span class="cor-p1 ">.<span></h1>
+                <ul class=" benefits">
+                    <li>
+                        <img src="assets/img/icones/eletrica.svg" alt="Icone eletrica" width="24" height="24">
+                        <h3 class="font-1-l cor-0">Reparo Elétrico</h3>
+                        <p class="font-2-s cor-5">Garantimos o reparo completo do seu motor em caso de falhas. Sabemos que falhas são raras, mas estamos aqui para caso ocorra.</p>
+                    </li>
+                    <li>
+                        <img src="assets/img/icones/carbono.svg" alt="Icone Carbono" width="24" height="24">
+                        <h3 class="font-1-l cor-0">Carbono</h3>
+                        <p class="font-2-s cor-5">Nossos quadros são feitos para durar para sempre. Mas caso algo ocorra, ficamos felizes em reparar.</p>
+                    </li>
+                    <li>
+                        <img src="assets/img/icones/sustentavel.svg" alt="Icone Sustentável" width="24" height="24">
+                        <h3 class="font-1-l cor-0">Sustentável</h3>
+                        <p class="font-2-s cor-5">Trabalhamos com a filosofia de desperdício zero. Qualquer parte defeituosa é reciclada e reutilizada em outro projeto.</p>
+                    </li>
+                    <li>
+                        <img src="assets/img/icones/rastreador.svg" alt="Icone Rastreador" width="24" height="24">
+                        <h3 class="font-1-l cor-0">Rastreador</h3>
+                        <p class="font-2-s cor-5">Utilizamos o GPS da sua Bikcraft em conjunto com especialistas em segurança para efetuarmos a recuperação.</p>
+                    </li>
+                    <li>
+                        <img src="assets/img/icones/seguro.svg" alt="Icone Seguro" width="24" height="24">
+                        <h3 class="font-1-l cor-0">Segurança</h3>
+                        <p class="font-2-s cor-5">Com o seguro Bikcraft você pode ficar tranquilo em saber que o seu dinheiro não será perdido em casos de roubo.</p>
+                    </li>
+                    <li>
+                        <img src="assets/img/icones/velocidade.svg" alt="Icone Velocidade" width="24" height="24">
+                        <h3 class="font-1-l cor-0">Rapidez</h3>
+                        <p class="font-2-s cor-5">A sua Bikcraft ficará pronta para uso no mesmo dia, caso você traga ela para ser reparada em uma das filiais.</p>
+                    </li>
+
+                </ul>
+            </div>
+
+        </article>
+        <article class="container question">
+            <h2 class="font-1-xxl">
+                perguntas frequentes <span class="cor-p1 ">.<span>
+            </h2>
+            <dl>
+                <div>
+                    <dt class="font-1-m-b"><button aria-expanded="true" aria-controls="question-1">Qual forma de pagamento vocês aceitam?</button></dt>
+                    <dd class="font-2-s cor-9 active" id="question-1">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+                </div>
+                <div>
+                    <dt class="font-1-m-b"><button aria-expanded="false" aria-controls="question-2">Como posso entrar em contato?</button></dt>
+                    <dd class="font-2-s cor-9 " id="question-2">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+                </div>
+                <div>
+                    <dt class="font-1-m-b"><button aria-expanded="false" aria-controls="question-3">Vocês possuem algum desconto?</button></dt>
+                    <dd class="font-2-s cor-9" id="question-3">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+                </div>
+                <div>
+                    <dt class="font-1-m-b"><button aria-expanded="false" aria-controls="question-4">Qual a garantia que possuo?</button></dt>
+                    <dd class="font-2-s cor-9" id="question-4">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+                </div>
+                <div>
+                    <dt class="font-1-m-b"><button aria-expanded="false" aria-controls="question-5">Posso parcelar no boleto?</button></dt>
+                    <dd class="font-2-s cor-9" id="question-5">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+                </div>
+                <div>
+                    <dt class="font-1-m-b"><button aria-expanded="false" aria-controls="question-6">Quantas trocas posso fazer ao ano?</button></dt>
+                    <dd class="font-2-s cor-9" id="question-6">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+                </div>
+            </dl>
+        </article>
+    </main>
+    <footer aria-label="Rodapé">
+        <section class="footer container">
+            <a href="index.html">
+                <img src="assets/img/bikcraft.svg" alt="Logo bikcraft" class="logo" width="136" height="32">
+            </a>
+            <div>
+                <h3 class="font-2-l-b cor-0">Contato</h3>
+                <ul class="contact">
+                    <li><a href="#" class="cor-6">+55 21 9999-9999</a></li>
+                    <li><a href="#" class="cor-6">contato@bikcraft.com</a></li>
+                    <li class="cor-6">Rua Ali Perto, 42 - Botafogo</li>
+                    <li class="cor-6">Rio de Janeiro - RJ</li>
+                    <li class="socialmedia" aria-label="Redes sociais">
+                        <img src="assets/img/redes/instagram.svg" alt="Instagram" width="32" height="32">
+                        <img src="assets/img/redes/facebook.svg" alt="Facebook" width="32" height="32">
+                        <img src="assets/img/redes/youtube.svg" alt="You tube" width="32" height="32">
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-2-l-b cor-0 padding-1">Informações</h3>
+                <ul class="footer-info" aria-label="Rodapé navegação">
+                    <li><a href="bicycle.html" class="cor-6">Bicicletas</a></li>
+                    <li><a href="seguro.html" class="cor-6">Seguros</a></li>
+                    <li><a href="contact.html" class="cor-6">Contatos</a></li>
+                    <li><a href="termos.html" class="cor-6">Termos de condições</a></li>
+                </ul>
+            </div>
+        </section>
+        <div>
+            <p class="cor-6 container k">Bikcraft © Alguns direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="assets/javascript/Plugin/simple-anime.js"></script>
+    <script src="assets/javascript/link.js"></script>
+    <script src="assets/javascript/mobile-header.js"></script>
+</body>
+
+</html>

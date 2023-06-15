@@ -1,0 +1,48 @@
+/* Global style */
+
+@import url(web-global-css/web-global-base-css/color.css);
+@import url(web-global-css/web-global-base-css/tipografia.css);
+@import url(web-global-css/web-global-base-css/global.css);
+@import url(web-global-css/header.css);
+@import url(web-global-css/footer.css);
+@import url(web-global-css/anime.css);
+
+/*=======================================================================================================*/
+
+/* Index style */
+@import url(web-index-css/intro.css);
+@import url(web-index-css/choice.css);
+@import url(web-index-css/tec.css);
+@import url(web-index-css/partners.css);
+@import url(web-index-css/evaluation.css);
+
+/*=======================================================================================================*/
+
+/* Seguro style */
+@import url(web-seguro-css/safe.css);
+@import url(web-seguro-css/benefits.css);
+@import url(web-seguro-css/question.css);
+
+/*========================================================================================================*/
+
+/* Bicycle style */
+@import url(web-bicycle-css/bicycle.css);
+@import url(web-bicycle-css/bicycle-global.css);
+
+/*========================================================================================================*/
+
+/* Contact style */
+@import url(web-contact-css/contact.css);
+
+/*========================================================================================================*/
+
+/* Termos style */
+@import url(web-termos-css/termos.css);
+
+/*========================================================================================================*/
+
+/* Orcamento style */
+@import url(web-orcamento-css/orcamento.css);
+
+/*========================================================================================================*/
+

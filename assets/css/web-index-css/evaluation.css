@@ -1,0 +1,76 @@
+.evaluation {
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.evaluation .evaluation__img {
+  width: 100%;
+}
+.evaluation .evaluation__img img {
+  max-width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.evaluation__container {
+  background-color: var(--cor-p1);
+  padding: 10rem 4rem 2rem;
+  font-style: italic;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.evaluation__container p {
+  position: relative;
+  padding: 2rem 0;
+}
+.evaluation__container p::before {
+  content: "“";
+  position: absolute;
+  margin-left: -3rem;
+  font-size: 5rem;
+  margin-top: -1.5rem;
+  color: var(--cor-p2);
+}
+.evaluation__container p::after {
+  content: "”";
+  position: absolute;
+  font-size: 5rem;
+  color: var(--cor-p2);
+  margin-top: -1rem;
+}
+.evaluation__container span{
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--cor-p4);
+}
+
+@media(max-width:800px){
+  .evaluation {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .evaluation__container {
+    background-color: var(--cor-p1);
+    padding: 2rem 2rem;
+    font-style: italic;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 2rem;
+  }
+  
+  
+}
+@media(max-width:600px){
+  .evaluation__container p::before {
+    margin-left: -1.5rem;
+    margin-top: -0.5rem;
+    font-size: 2rem;
+  }
+  .evaluation__container p::after {
+    margin-top: -0.5rem;
+    font-size: 2rem;
+  }
+}

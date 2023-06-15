@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="preload" href="assets/css/style.min.css" as="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/favicon/icons8-bicicleta-50.png" type="image/x-icon">
+    <script>
+        document.documentElement.classList.add('js')
+    </script>
+</head>
+
+<body>
+    <header aria-label="Cabeçalho">
+        <div class="container header">
+            <a href="index.html">
+                <img src="assets/img/bikcraft.svg" alt="Logo bikcraft" class="logo" width="136" height="32">
+            </a>
+            <nav aria-label="Navegação" class="header__desktop">
+                <ul>
+                    <li><a href="bicycle.html">Bicicletas</a></li>
+                    <li><a href="seguro.html">Seguros</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+            <!--Mobile nav-->
+            <button class="button__menu" aria-label="Menu open header mobile">
+                <input type="checkbox" id="btn" name="btn" />
+                <label class="label" for="btn">
+                    <div class="open-close">
+                        <span class="one"></span>
+                        <span class="two"></span>
+                        <span class="three"></span>
+                    </div>
+                </label>
+            </button>
+            <div class="nav__mobile">
+                <div class="detail"></div>
+                <nav aria-label="Navegação" class="nav">
+                    <ul>
+                        <li><a href="bicycle.html">Bicicletas</a></li>
+                        <li><a href="seguro.html">Seguros</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main aria-label="entre em contato">
+        <section class="t__main">
+            <div class="t container">
+                <p class="font-2-l-b cor-5">RESPOSTAS EM ATÉ 24H</p>
+                <h1 class="font-1-xxl cor-0">nosso contato<span class="cor-p1 ">.<span></h1>
+            </div>
+        </section>
+        <section class="main__contact">
+            <div class="container contact__page">
+                <div class="left">
+                    <h2 class="cor-0" style="font-size: 1.125rem;font-weight: 400;">Loja Online</h2>
+                    <ul>
+                        <li class=" cor-4 icone">
+                            <div class="icone__txt">
+                                <img src="assets/img/icones/local.svg" alt="icone local" width="24" height="24">
+                                <p class="font-09">Rua Ali Perto, 35 <br>
+                                    Rio de Janeiro - RJ <br>
+                                    Brasil - Terra - Vita Láctea</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icone__txt">
+                                <img src="assets/img/icones/email.svg" alt="Icone email" width="24" height="24">
+
+                                <a href="#" class="font-09 cor-4">
+                                    contato@bikcraft.com <br>
+                                    assistencia@bikcraft.com
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icone__txt">
+                                <img src="assets/img/icones/telefone.svg" alt="Icone telefone" width="24" height="24">
+
+                                <a href="#" class="font-09 cor-4"> +55 21 9999-9999
+                                </a>
+                            </div>
+                        </li>
+                        <li class="social">
+                            <img src="assets/img/redes/instagram-p.svg" alt="Icone rede social = Instagram" width="32" height="32">
+                            <img src="assets/img/redes/facebook-p.svg" alt="Icone rede social = Facebook" width="32" height="32">
+                            <img src="assets/img/redes/youtube-p.svg" alt="Icone rede social = You tube" width="32" height="32">
+                        </li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <form action="/" class="form">
+                        <div class="input-two">
+                            <div class="itens">
+                                <label for="name" class="font-09"> Nome
+                                </label>
+                                <input type="text" name="name" id="name" required placeholder="Seu nome">
+                            </div>
+                            <div class="itens">
+                                <label for="phone" class="font-09"> Telefone
+                                </label>
+                                <input type="text" name="phone" id="phone" required placeholder="(21)4324-8465">
+                            </div>
+                        </div>
+                        <div class="itens">
+                            <label for="email" class="font-09">Email
+
+                            </label>
+                            <input type="email" name="email" id="email" placeholder="contato@email.com">
+                        </div>
+                        <div class="itens">
+                            <label for="mensage" class="font-09">Mensagem
+
+                            </label>
+                            <textarea name="mensage" id="mensage" rows="5" placeholder="O que você precisa ?"></textarea>
+                            <a href="#" class="btn-style">Enviar mensagem</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <article aria-label="local das lojas">
+        <div class="container store">
+            <h1 class="h1-title" style="color: var(--cor-12);">lojas locais<span class="cor-p1 ">.<span></h1>
+            <div class="local__stores">
+                <div class="local__stores__container">
+                    <div class="local__stores-rj">
+                        <div>
+                            <img src="assets/img/lojas/rj.jpg" alt="Local loja Rio de Janeiro" width="auto" height="auto">
+                        </div>
+                        <div class="wrapper">
+                            <h3 class="font-1-xl">Rio de Janeiro</h3>
+                            <div class="local__contact">
+                                <div class="local cor-8">
+                                    <p>Rua Ali Perto, 25</p>
+                                    <p>Rio de Janeiro - RJ</p>
+                                </div>
+                                <div class="store__contact">
+                                    <a href="#" class="cor-8">rj@bikcraft.com</a>
+                                    <a href="#" class="cor-8">+55 21 9999-9999</a>
+                                </div>
+                            </div>
+                            <div class="store__time">
+                                <img src="assets/img/icones/horario.svg" alt="Icone horário" width="24" height="24">
+                                <p>08-18h de seg à dom</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="local__stores__container">
+                    <div class="local__stores-rj">
+                        <div>
+                            <img src="assets/img/lojas/sp.jpg" alt="Local loja São paulo" width="auto" height="auto">
+                        </div>
+                        <div class="wrapper">
+                            <h3 class="font-1-xl">São Paulo</h3>
+                            <div class="local__contact">
+                                <div class="local cor-8">
+                                    <p>Rua Ali Perto, 25</p>
+                                    <p>São Paulo - SP</p>
+                                </div>
+                                <div class="store__contact">
+                                    <a href="#" class="cor-8">sp@bikcraft.com</a>
+                                    <a href="#" class="cor-8">+55 11 9999-9999</a>
+                                </div>
+                            </div>
+                            <div class="store__time">
+                                <img src="assets/img/icones/horario.svg" alt="Icone horário" width="24" height="24">
+                                <p>08-18h de seg à dom</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer aria-label="Rodapé">
+        <section class="footer container">
+            <a href="index.html">
+                <img src="assets/img/bikcraft.svg" alt="Logo bikcraft" class="logo" width="136" height="32">
+            </a>
+            <div>
+                <h3 class="font-2-l-b cor-0">Contato</h3>
+                <ul class="contact">
+                    <li><a href="#" class="cor-6">+55 21 9999-9999</a></li>
+                    <li><a href="#" class="cor-6">contato@bikcraft.com</a></li>
+                    <li class="cor-6">Rua Ali Perto, 42 - Botafogo</li>
+                    <li class="cor-6">Rio de Janeiro - RJ</li>
+                    <li class="socialmedia" aria-label="Redes sociais">
+                        <img src="assets/img/redes/instagram.svg" alt="Instagram" width="32" height="32">
+                        <img src="assets/img/redes/facebook.svg" alt="Facebook" width="32" height="32">
+                        <img src="assets/img/redes/youtube.svg" alt="You tube" width="32" height="32">
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-2-l-b cor-0 padding-1">Informações</h3>
+                <ul class="footer-info" aria-label="Rodapé navegação">
+                    <li><a href="bicycle.html" class="cor-6">Bicicletas</a></li>
+                    <li><a href="seguro.html" class="cor-6">Seguros</a></li>
+                    <li><a href="contact.html" class="cor-6">Contatos</a></li>
+                    <li><a href="termos.html" class="cor-6">Termos de condições</a></li>
+                </ul>
+            </div>
+        </section>
+        <div>
+            <p class="cor-6 container k">Bikcraft © Alguns direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="assets/javascript/Plugin/simple-anime.js"></script>
+    <script src="assets/javascript/link.js"></script>
+    <script src="assets/javascript/mobile-header.js"></script>
+
+
+</body>
+
+</html>

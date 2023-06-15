@@ -1,0 +1,140 @@
+body {
+  position: relative;
+}
+header {
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--cor-12);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+.header ul {
+  display: flex;
+  
+}
+.header ul li a {
+  position: relative;
+  margin-right: 2rem;
+  font-size: 18px;
+  padding-bottom: 0.4rem;
+  padding-top: 0.3rem;
+  
+}
+.header ul li a::before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: var(--cor-0);
+  bottom: 0;
+  transition: width 0.3s;
+ 
+}
+.header ul li a:hover::before,
+.header ul li a.active::before {
+  width: 100%;
+}
+
+.js .button__menu,
+.js .nav__mobile {
+  display: none;
+}
+
+.js header input {
+  position: absolute;
+  visibility: hidden;
+}
+.js header label {
+  position: relative;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  cursor: pointer;
+}
+.js header label.label .open-close .one,
+.js header label.label .open-close .two,
+.js header label.label .open-close .three {
+  height: 3px;
+  width: 30px;
+  background-color:gray;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+.js header label.label .open-close .one {
+  margin-top: -0.7rem;
+}
+.js header label.label .open-close .two {
+  margin-top: 0.7rem;
+}
+
+.js header #btn:checked + .label .open-close .one {
+  transform: rotate(49deg);
+  margin-top: 0.1rem;
+  transition: all 0.3s ease-in-out;
+}
+.js header #btn:checked + .label .open-close .two {
+  transform: rotate(136deg);
+  margin-top: 0.1rem;
+  transition: all 0.3s ease-in-out;
+}
+.js header #btn:checked + .label .open-close .three {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+@media (max-width: 550px) {
+  header .header__desktop {
+    display: none;
+  }
+  .js header .header__mobile {
+    display: flex;
+    right: 0;
+  }
+  .js header .button__menu {
+    background: transparent;
+    border: none;
+    display: block;
+    right: 0;
+    top: 0;
+    margin-top: 0.6rem;
+    z-index: 5;
+    position: fixed;
+    cursor: pointer;
+  }
+  .js header .nav__mobile {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    z-index: 4;
+    transform: translateX(110%);
+    transition: all 0.1s ease-in-out;
+  }
+  .js header .detail {
+    background-color: rgba(0, 0, 0, 0.288);
+  }
+  .js header .nav {
+    display: block;
+    background-color: rgb(43, 43, 43);
+    padding: 6rem 2rem;
+  }
+  .js header .nav__mobile ul {
+    display: grid;
+    gap: 1rem;
+  }
+  .js header .nav__mobile.active {
+    transform: translateX(0%);
+  }
+}

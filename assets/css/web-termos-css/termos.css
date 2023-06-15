@@ -1,0 +1,14 @@
+.termos{
+    padding: 3rem 0;
+    max-width: 680px;
+}
+.termos h2 {
+  color: var(--cor-12);
+  font-weight: 600;
+  padding: 1rem 0;
+}
+.termos p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.7rem;
+}

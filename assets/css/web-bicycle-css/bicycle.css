@@ -1,0 +1,131 @@
+.bicycle {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-left: 5.7rem;
+  padding-bottom: 3rem;
+}
+.bicycle__container {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  align-items: center;
+  padding: 3rem 0;
+  gap: 2rem;
+  position: relative;
+}
+.bicycle__container .bicycle__img {
+  width: 100%;
+  border: 4px;
+}
+.bicycle__container__img img {
+  position: relative;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.bicycle__container__img span {
+  position: absolute;
+  margin-left: -5rem;
+  margin-top: 1rem;
+  padding: 0.6rem;
+  background-color: #000;
+  border-radius: 4px 0px 0px 4px;
+  color: var(--cor-0);
+}
+.bicycle__container__txt {
+  background: url(../../img/dec/top-right.svg) no-repeat;
+  background-position: top  right 15%;
+  padding-right: 5.7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.bicycle__container__txt p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.bicycle__container__txt h2::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  margin-bottom: 8px;
+}
+.bicycle__container ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+}
+.bicycle__container ul li img {
+  width: 24px;
+  margin-right: 8px;
+}
+.bicycle .btn-style{
+  margin-right: 5rem;
+}
+.btn-seta {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 4.5rem;
+}
+#seta {
+  transition: 0.3s;
+  margin-left: 0.5rem;
+}
+.bicycle__container .btn-style:hover #seta {
+  transform: translateX(15px);
+}
+.bicycle__container:nth-child(2) {
+  background-image: linear-gradient(
+    to right,
+    var(--cor-0) 30%,
+    var(--cor-11) 30%
+  );
+}
+.bicycle__container:nth-child(2) h2{
+  color: var(--cor-0);
+}
+@media (max-width: 800px) {
+  .bicycle {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .bicycle__container {
+    flex-wrap: wrap;
+  }
+  .btn-seta {
+    position: initial;
+    display: block;
+  }
+  .bicycle__container__txt {
+    background: none;
+    padding: 0;
+  }
+  .bicycle__container__txt p {
+    font-size: 1.1rem;
+  }
+  .bicycle__container:nth-child(2) {
+    background-image: none;
+  }
+  .bicycle__container {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 2rem;
+    position: relative;
+  }
+  .bicycle__container:nth-child(2) p,
+  .bicycle__container:nth-child(2) li {
+    color: var(--cor-8);
+  }
+  .bicycle__container:nth-child(2) h2{
+    color: var(--cor-12);
+  }
+  
+  .bicycle .btn-style{
+    margin: 0;
+  }
+}

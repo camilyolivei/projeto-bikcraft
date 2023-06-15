@@ -1,0 +1,25 @@
+.benefits-bg{
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: var(--cor-12);
+}
+.benefits-bg h1{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+.benefits{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    gap: 0.7rem   ;
+    background-color: var(--cor-12);
+}
+.benefits li{
+    display: grid;  ;
+    padding: 1rem;
+    gap: 0.7rem;
+}
+.benefits p{
+    line-height: 1.5rem;
+}

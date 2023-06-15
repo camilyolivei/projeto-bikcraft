@@ -1,0 +1,206 @@
+.bg {
+  background-color: var(--cor-11);
+  width: 100vw;
+  overflow-x: hidden;
+}
+.bicycle__option {
+  background-color: var(--cor-11);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-bottom: 4rem;
+}
+.bicycle__option__imgs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.bicicleta-imagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.bicicleta-imagens img {
+  flex: 1;
+  min-width: 200px;
+  border-radius: 4px;
+}
+
+.bicicleta-imagens img:first-child {
+  min-width: 100%;
+}
+.bicycle__option__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.bicycle__option__txt {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.bicycle__option__txt h2 {
+  padding-top: 0.5rem;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+.bicycle__option__txt .btn-style {
+  display: block;
+  width: 220px;
+}
+.delivery__stock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.delivery,
+.stock {
+  display: flex;
+  gap: 0.7rem;
+  background-color: var(--cor-12);
+  border-radius: 4px;
+  padding: 0.2rem 0.4rem;
+}
+
+.bicycle__option__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--cor-12);
+  padding: 2rem 2rem;
+  border-radius: 4px;
+  gap: 1.2rem;
+}
+.bicycle__option__container img {
+  width: 24px;
+}
+.bicycle__option__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.datasheet {
+  background-color: var(--cor-12);
+  padding: 2rem;
+  border-radius: 4px;
+}
+.datasheet li {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(82, 82, 82, 0.185);
+}
+.datasheet li:nth-child(6) {
+  border-bottom: none;
+}
+
+.main .choice-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  overflow-x: hidden;
+  padding-bottom: 2rem;
+}
+.main .item {
+  width: 100%;
+}
+
+.safe__contant-bg {
+  background-color: var(--cor-11);
+  box-shadow: inset 0px 80px var(--cor-0), inset 0px -80px #000000;
+  background: var(--cor-11) url(../img/dec/bottom-left.svg) no-repeat;
+}
+
+.safe__contant {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  overflow-y: hidden;
+}
+.safe__contant__description {
+  background-color: transparent;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  order: 1;
+}
+.main .safe__contant__description {
+  background-color: transparent;
+  padding-top: 132px;
+  padding-bottom: 132px;
+}
+.main .btn-style{
+  width: fit-content;
+  display: block;
+}
+
+.safe__contant__description p{
+  margin-bottom: 1rem;
+
+}
+@media (max-width: 900px) {
+  .bicycle__option {
+    grid-template-columns: 1fr;
+  }
+  .bicycle__option__wrapper {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .bicycle__option__container {
+    grid-template-columns: 1fr;
+  }
+  .main .choice-item {
+    overflow-x: scroll;
+  }
+  .safe__contant-bg {
+    background-color: var(--cor-11);
+    box-shadow: none;
+    background: var(--cor-11) url(../img/dec/bottom-left.svg) no-repeat;
+    display: grid;
+  }
+  .main .safe__contant {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-image: linear-gradient(to top, #000000 15%, var(--cor-11) 15%);
+  }
+  .main .safe__contant__img {
+    display: block;
+    order: 2;
+  }
+  .safe__contant .safe__contant__img img {
+    height: auto;
+    width: 100%;
+  }
+  .imgs {
+    grid-template-columns: 1fr;
+  }
+  .main .safe__contant__description {
+    background-color: transparent;
+    padding: 3rem 0;
+  }
+  .bicicleta {
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .bicicleta-imagens {
+    grid-row: 2;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .main .btn-style {
+    display: block;
+    width: 164px;
+    padding: 0.5rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .safe__contant {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    overflow-y: hidden;
+  }
+}

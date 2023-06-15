@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bicicleta Nebula</title>
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="preload" href="assets/css/style.min.css" as="style">
+    <link rel="stylesheet" href="assets/css/web-global-css/img.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/favicon/icons8-bicicleta-50.png" type="image/x-icon">
+    <script>
+        document.documentElement.classList.add('js')
+    </script>
+</head>
+
+<body>
+    <header aria-label="Cabeçalho">
+        <div class="container header">
+            <a href="index.html">
+                <img src="assets/img/bikcraft.svg" alt="Logo bikcraft" class="logo" width="136" height="32">
+            </a>
+            <nav aria-label="Navegação" class="header__desktop">
+                <ul>
+                    <li><a href="bicycle.html">Bicicletas</a></li>
+                    <li><a href="seguro.html">Seguros</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+            <!--Mobile nav-->
+            <button class="button__menu" aria-label="Menu open header mobile">
+                <input type="checkbox" id="btn" name="btn" />
+                <label class="label" for="btn">
+                    <div class="open-close">
+                        <span class="one"></span>
+                        <span class="two"></span>
+                        <span class="three"></span>
+                    </div>
+                </label>
+            </button>
+            <div class="nav__mobile">
+                <div class="detail"></div>
+                <nav aria-label="Navegação" class="nav">
+                    <ul>
+                        <li><a href="bicycle.html">Bicicletas</a></li>
+                        <li><a href="seguro.html">Seguros</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main" aria-label="Detalhes sobre bicileta Nebula Cosmic">
+        <section class="t__main">
+            <div class="t container">
+                <p class="font-2-xl cor-5">R$ 2499</p>
+                <h1 class="font-1-xxl cor-0">Nebula Cosmic<span class="cor-p1 ">.<span></h1>
+            </div>
+        </section>
+        <section class="bg">
+            <div class="bicycle__option container">
+                <div class="bicycle__option__imgs">
+                    <div class="bicicleta-imagens">
+                        <img src="assets/img/bicicletas/nebula.jpg" alt="Bicicleta Nebula">
+                        <img src="assets/img/bicicletas/magic.jpg" alt="Bicicleta Magic">
+                        <img src="assets/img/bicicletas/nimbus.jpg" alt="Bicicleta Nimbus">
+                    </div>
+                </div>
+                <div class="bicycle__option__txt">
+                    <p class="font-2-l cor-5">A Nebula Cosmic é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
+                    <div class="bicycle__option__wrapper">
+                        <a href="orcamento.html?tipo=bikcraft&product=nebula" class="btn-style">Comprar agora</a>
+                        <div class="delivery__stock">
+                            <span class="delivery">
+                                <img src="assets/img/icones/entrega.svg" alt="Icone entrega" width="24" height="24">
+                                <p class="font-1-xs cor-6">entrega em 5 dias</p>
+                            </span>
+                            <span class="stock">
+                                <img src="assets/img/icones/estoque.svg" alt="Icone estoque" width="24" height="24">
+                                <p class="font-1-xs cor-6">18 em estoque</p>
+                            </span>
+                        </div>
+                    </div>
+                    <section class="bicycle__option__info">
+                        <h2 class="font-1-xs cor-0">INFORMAÇÕES</h2>
+                        <div class="bicycle__option__container">
+                            <div class="bicycle__option__item">
+                                <img src="assets/img/icones/eletrica.svg" alt="Icone elétrico" width="24" height="24">
+                                <h3 class="font-1-m cor-0">Motor Elétrico</h3>
+                                <p class="font-2-xs cor-5">Permite você viajar distâncias inimaginaveis com a sua bike.</p>
+                            </div>
+                            <div class="bicycle__option__item">
+                                <img src="assets/img/icones/velocidade.svg" alt="Icone velocidade" width="24" height="24">
+                                <h3 class="font-1-m cor-0">45 km/h</h3>
+                                <p class="font-2-xs cor-5">A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
+                            </div>
+                            <div class="bicycle__option__item">
+                                <img src="assets/img/icones/rastreador.svg" alt="Icone rastrador" width="24" height="24">
+                                <h3 class="font-1-m cor-0">Rastreador</h3>
+                                <p class="font-2-xs cor-5">Rastreador e sistema anti-furto para garantir o seu sossego.</p>
+                            </div>
+                            <div class="bicycle__option__item">
+                                <img src="assets/img/icones/carbono.svg" alt="Icone Carbono" width="24" height="24">
+                                <h3 class="font-1-m cor-0">Fibra de Carbono</h3>
+                                <p class="font-2-xs cor-5">Maior proteção possível para a sua Bikcraft com fibra de carbono.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h2 class="font-1-xs cor-0">FICHA TÉCNICA</h1>
+                            <ul class="datasheet cor-5">
+                                <li>
+                                    <p>Peso</p>
+                                    <span>9 kg</span>
+                                </li>
+                                <li>
+                                    <p>Altura</p>
+                                    <span>60 cm</span>
+                                </li>
+                                <li>
+                                    <p>Largura</p>
+                                    <span>120 cm</span>
+                                </li>
+                                <li>
+                                    <p>Profundidade</p>
+                                    <span>10 cm</span>
+                                </li>
+                                <li>
+                                    <p>Marchas</p>
+                                    <span>16</span>
+                                </li>
+                                <li>
+                                    <p>Roda</p>
+                                    <span>29</span>
+                                </li>
+                            </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <article>
+            <div class="choice container">
+                <h1 class="h1-title " style="color: #000000;">escolha a sua<span class="cor-p1 ">.</span></h1>
+                <ul class="choice-item">
+
+                    <li class="item">
+                        <a href="bicycle-magicmight.html">
+                            <img src="assets/img/bicicletas/magic.jpg" alt="Imagem bicicleta magic might" width="auto" height="auto">
+                            <h3 class="cor-12">Magic Might</h3>
+                            <span class="cor-8">R$ 4999</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="nebulacosmic.html">
+                            <img src="assets/img/bicicletas/nimbus.jpg" alt="Imagem bicicleta Nimbus" width="auto" height="auto">
+                            <h3 class="cor-12">Nimbus Start</h3>
+                            <span class="cor-8">R$ 3999</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </article>
+        <section class="safe__contant-bg">
+            <div class="container safe__contant">
+                <div class="safe__contant__img">
+                    <img src="assets/img/fotos/seguros.jpg" alt="Imagem seguros" width="auto" height="auto">
+                </div>
+                <div class="safe__contant__description">
+                    <h2 class="font-1-xxl cor-0">Pedale mais tranquilo com o nosso <span class="cor-p1">seguro.</span></h2>
+                    <p class="font-2-l cor-5">Inscreva-se em um dos planos do nosso seguro Bikcraft e aproveite diversos benefícios.</p>
+                    <a href="seguro.html" class="btn-style">Conheça mais</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer aria-label="Rodapé">
+        <section class="footer container">
+            <a href="index.html">
+                <img src="assets/img/bikcraft.svg" alt="Logo bikcraft" class="logo" width="136" height="32">
+            </a>
+            <div>
+                <h3 class="font-2-l-b cor-0">Contato</h3>
+                <ul class="contact">
+                    <li><a href="#" class="cor-6">+55 21 9999-9999</a></li>
+                    <li><a href="#" class="cor-6">contato@bikcraft.com</a></li>
+                    <li class="cor-6">Rua Ali Perto, 42 - Botafogo</li>
+                    <li class="cor-6">Rio de Janeiro - RJ</li>
+                    <li class="socialmedia" aria-label="Redes sociais">
+                        <img src="assets/img/redes/instagram.svg" alt="Instagram" width="32" height="32">
+                        <img src="assets/img/redes/facebook.svg" alt="Facebook" width="32" height="32">
+                        <img src="assets/img/redes/youtube.svg" alt="You tube" width="32" height="32">
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-2-l-b cor-0 padding-1">Informações</h3>
+                <ul class="footer-info" aria-label="Rodapé navegação">
+                    <li><a href="bicycle.html" class="cor-6">Bicicletas</a></li>
+                    <li><a href="seguro.html" class="cor-6">Seguros</a></li>
+                    <li><a href="contact.html" class="cor-6">Contatos</a></li>
+                    <li><a href="termos.html" class="cor-6">Termos de condições</a></li>
+                </ul>
+            </div>
+        </section>
+        <div>
+            <p class="cor-6 container k">Bikcraft © Alguns direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="assets/javascript/Plugin/simple-anime.js"></script>
+    <script src="assets/javascript/link.js"></script>
+    <script src="assets/javascript/mobile-header.js"></script>
+</body>
+
+</html>
