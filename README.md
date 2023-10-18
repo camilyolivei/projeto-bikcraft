@@ -1,4 +1,6 @@
-![bikcraft](https://github.com/camilyolivei/projeto-bikcraft/assets/120147200/2c3bbd07-5fa3-42e7-bdb1-bed4e2b703fc)
+
+![PRÉVIA (1)](https://github.com/camilyolivei/projeto-bikcraft/assets/120147200/bd0a6c96-5e95-401b-a5a7-8f76a5e3875b)
+
 
 
 - [Visualizar site completo](https://camilyolivei.github.io/projeto-bikcraft/)<br/>
