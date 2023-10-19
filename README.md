@@ -1,7 +1,5 @@
 
-![PRÉVIA (1)](https://github.com/camilyolivei/projeto-bikcraft/assets/120147200/bd0a6c96-5e95-401b-a5a7-8f76a5e3875b)
-
-
+![previa-8](https://github.com/camilyolivei/projeto-bikcraft/assets/120147200/fc24ee01-f5a2-4c02-a6c1-d71e957aa997)
 
 - [Visualizar site completo](https://camilyolivei.github.io/projeto-bikcraft/)<br/>
 
